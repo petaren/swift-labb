@@ -13,6 +13,7 @@
 		D2B6A3EC19D55F31003AD38C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B6A3EB19D55F31003AD38C /* Images.xcassets */; };
 		D2B6A3EF19D55F31003AD38C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B6A3ED19D55F31003AD38C /* LaunchScreen.xib */; };
 		D2B6A3FB19D55F32003AD38C /* swift_labbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6A3FA19D55F32003AD38C /* swift_labbTests.swift */; };
+		D2B6A40519D56553003AD38C /* SimulateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6A40419D56553003AD38C /* SimulateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D2B6A3F419D55F32003AD38C /* swift-labbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-labbTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B6A3F919D55F32003AD38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2B6A3FA19D55F32003AD38C /* swift_labbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_labbTests.swift; sourceTree = "<group>"; };
+		D2B6A40419D56553003AD38C /* SimulateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D2B6A3EB19D55F31003AD38C /* Images.xcassets */,
 				D2B6A3ED19D55F31003AD38C /* LaunchScreen.xib */,
 				D2B6A3E219D55F31003AD38C /* Supporting Files */,
+				D2B6A40419D56553003AD38C /* SimulateViewController.swift */,
 			);
 			path = "swift-labb";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				D2B6A3E719D55F31003AD38C /* ViewController.swift in Sources */,
 				D2B6A3E519D55F31003AD38C /* AppDelegate.swift in Sources */,
+				D2B6A40519D56553003AD38C /* SimulateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				D2B6A40019D55F32003AD38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2B6A40119D55F32003AD38C /* Build configuration list for PBXNativeTarget "swift-labbTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				D2B6A40319D55F32003AD38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
